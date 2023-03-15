@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "autoname": "format:JA-{YY}-{####}",
+ "creation": "2023-03-15 08:50:19.422558",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "email",
+  "contacts",
+  "nrc",
+  "column_break_tiyf",
+  "nationality",
+  "qualifications"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contacts",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Contacts",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nrc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "NRC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tiyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "qualifications",
+   "fieldtype": "Data",
+   "label": "Qualifications",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-15 10:45:52.098167",
+ "modified_by": "Administrator",
+ "module": "Services",
+ "name": "Job Application",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

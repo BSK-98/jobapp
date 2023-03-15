@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "autoname": "format:CS-{YY}-{####}",
+ "creation": "2023-03-14 13:59:55.171465",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "appointment_date",
+  "description",
+  "service_fee"
+ ],
+ "fields": [
+  {
+   "fieldname": "appointment_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "appointment date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service_fee",
+   "fieldtype": "Read Only",
+   "label": "service fee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-14 13:59:55.171465",
+ "modified_by": "Administrator",
+ "module": "Services",
+ "name": "consultation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
